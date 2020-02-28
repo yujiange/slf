@@ -1,0 +1,106 @@
+/* 资金流水 */
+body{
+    background-color:#fff;
+}
+.mui-clearfix:after, .mui-clearfix:before{
+    display: table;
+    content: ' ';
+}
+.mui-clearfix:after {
+    clear: both;
+}
+.show_list{
+    .van-pull-refresh{
+        padding-top:320px;
+    }
+}
+.dlslist{
+    .van-pull-refresh{
+        padding-top:170px;
+    }
+}
+.show_list,.dlslist,.sjlist {
+    .van-tabs__wrap{
+        position: fixed;
+        width: 100%;
+        box-sizing: border-box;
+        background-color:#fff;
+        z-index: 2;
+    }
+    .van-tab{
+      span{
+        font-size:30px;
+        font-family:PingFang SC;
+        font-weight:500;
+        color:rgba(188,202,243,1);
+      }
+      &.van-tab--active span {
+        font-size:34px;
+        font-family:PingFang SC;
+        font-weight:bold;
+        color:rgba(65,114,255,1);
+      }
+    }
+    .van-tabs__line{
+        background-color:#fff!important;
+    }
+    .list{
+        line-height: 48px;
+        .item_3 {
+            font-size:30px;
+            font-family:PingFang SC;
+            font-weight:500;
+            color:rgba(51,51,51,1);
+            .sblx{
+                color:#4172FF;
+            }
+            .sbh{
+                font-size:22px;
+                font-family:PingFang SC;
+                font-weight:500;
+                color:rgba(153,153,153,1);
+            }
+          }
+          .item_4 {
+            font-size:34px;
+            font-family:Lantinghei SC;
+            font-weight:600;
+            color:rgba(245,176,67,1);
+          }
+          .item_5{
+            font-size:22px;
+            font-family:PingFang SC;
+            font-weight:500;
+            color:rgba(153,153,153,1);
+          }
+    }
+    .head{
+        position: fixed;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #4172FF;
+        z-index: 2;
+        padding: 40px 30px;
+        .van-search{
+            padding: 0;
+            background-color: #4172FF!important;
+            
+            .van-search__content{
+                border-radius:45px;
+                .van-field__left-icon .van-icon{
+                    color:#999999;
+                }
+            }
+        }
+        .total{
+            margin-top: 40px;
+            color:#fff;
+            text-align: center;
+            font-size:28px;
+            font-weight: bold;
+            .top{
+                margin-bottom: 20px;
+            }
+        }
+    }
+  }
