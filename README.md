@@ -1,4 +1,4 @@
-# fast-h5plus
+# slf
 ## 说明
 - 使用webpack构建多页面移动APP开发的快速框架
 - 使用scss预处理器提高app样式开发效率
@@ -10,7 +10,7 @@
 
 
 ## 使用
-### 获取fast-h5plus
+### 获取slf
 ```
 git clone git@github.com:CC4J/fast-h5plus.git
 ```
