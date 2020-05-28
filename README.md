@@ -12,7 +12,7 @@
 ## 使用
 ### 获取slf
 ```
-git clone git@github.com:CC4J/fast-h5plus.git
+git clone git@github.com:yujiange/slf.git
 ```
 ### 安装依赖
 ```
